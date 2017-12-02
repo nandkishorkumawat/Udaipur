@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hospitals"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_above="@+id/nirbhay"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="11dp" />
+
+    <Button
+        android:id="@+id/saraswati"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@color/colorAccent"
+        android:text="Saraswati Hospital" />
+
+    <Button
+        android:id="@+id/teresa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/saraswati"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="28dp"
+        android:background="@color/colorAccent"
+        android:text="St. Teresa Hospital" />
+
+    <Button
+        android:id="@+id/nirbhay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/teresa"
+        android:layout_alignStart="@+id/teresa"
+        android:layout_below="@+id/saraswati"
+        android:layout_marginTop="51dp"
+        android:background="@color/colorAccent"
+        android:text="Nirbhay Hospital"
+        android:layout_alignRight="@+id/teresa"
+        android:layout_alignEnd="@+id/teresa" />
+
+</RelativeLayout>
